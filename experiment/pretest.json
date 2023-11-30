@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "What are the three terminals of a power IGBT?",
 			"answers": {
@@ -52,7 +50,7 @@
 			"correctAnswer": "d"
 		}
 	]
-}
+
 
 
 
