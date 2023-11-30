@@ -1,5 +1,5 @@
-# Procedure
-<h2 style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; padding-top: 4px;"> Output Characteristics of Insulated Gate Bipolar Transistor (IGBT) </h2>
+
+<p style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );font-size: 22px; font-weight: bold;padding-bottom: 4px; text-align:center;height: 31px; "> Output Characteristics of Insulated Gate Bipolar Transistor (IGBT) </p>
 
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 16px;text-align: justify;">
 <b>STEP 1:</b> Drag and drop the components in the workspace to create the circuit.<br /><br />
@@ -22,7 +22,7 @@
 <b>STEP 9:</b> Click on the <b>PRINT</b> button to take out the print of the webpage.<br /><br />
 <b>STEP 10:</b> Click on the <b>RESET</b> button to reload the webpage.<br /><br />
 
-<h2 style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; padding-top: 4px;">Transfer Characteristics of Insulated Gate Bipolar Transistor (IGBT) </h2>
+<p style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; font-size: 22px;font-weight: bold;padding-bottom: 4px;">Transfer Characteristics of Insulated Gate Bipolar Transistor (IGBT) </p>
 
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 16px;text-align: justify;">
 <b>STEP 1:</b> Drag and drop the components in the workspace to create the circuit.<br /><br />
