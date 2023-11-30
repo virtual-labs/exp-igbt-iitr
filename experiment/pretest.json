@@ -1,39 +1,58 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+    "version": 2.0,
+    "questions":[
+		{
+			"question": "What are the three terminals of a power IGBT?",
+			"answers": {
+				"a": "Gate, Source and Drain",
+				"b": "Gate, Emitter and Collector",
+				"c": "Base, Emitter and Collector",
+				"d": "Base, Source and Drain"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "Which is suitable for making the Variable frequency drives?",
+			"answers": {
+				"a": "BJT",
+				"b": "TRIAC",
+				"c": "IGBT",
+				"d": "MOSFET"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "What is the controlling parameter in IGBT?",
+			"answers": {
+				"a": "IG",
+				"b": "VGE",
+				"c": "IC",
+				"d": "VCE"
+			},
+			"correctAnswer": "b"
+		},
+		{
+			"question": "What is the structure of the IGBT?",
+			"answers": {
+				"a": "P-N-P structure connected by a MOS gate",
+				"b": "N-N-P-P structure connected by a MOS gate",
+				"c": "P-N-P-N structure connected by a MOS gate",
+				"d": "N-P-N-P structure connected by a MOS gate"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "For the power semiconductor devices IGBT, MOSFET, Diode and Thyristor, which one of the following statements is true?",
+			"answers": {
+				"a": "All the four are majority carrier devices",
+				"b": "All the four are minority carrier devices",
+				"c": "IGBT and MOSFET are majority carrier devices, whereas Diode and Thyristor are minority carrier devices",
+				"d": "MOSFET is majority carrier device, whereas IGBT, Diode Thyristor are minority carrier devices"
+			},
+			"correctAnswer": "d"
+		}
+	]
 }
+
+
+
