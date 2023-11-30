@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Output Characteristics of IGBT</title>
+    <title>Transfer Characteristics of IGBT</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -79,7 +79,7 @@
                   <div class="center-img">
                     <div
                       class="ele-img dc-sym"
-                      style="height: 43px;padding-top: 2px; width: 120px"
+                      style="height: 43px; padding-top: 2px;  width: 120px"
                     >
                       <img
                         src="new-img/dcsource.png"
@@ -139,7 +139,7 @@
                       <img src="new-img/resistor.png" alt="" width="80%" />
                     </div>
                   </div>
-                  <div class="ele-name" style="padding-top: 3px">Resistor</div>
+                  <div class="ele-name" style="    padding-top: 3px;">Resistor</div>
                 </div>
               </div>
               <div class="comp-row">
@@ -181,7 +181,7 @@
           <br />
           <div
             class="reading_table_previous"
-            style="display: grid; grid-template-rows: 50% 50%; height: 420px"
+            style="display: grid; grid-template-rows: 50% 50%; height: 406px"
           >
             <div
               class="reading"
@@ -224,34 +224,44 @@
           <div
             class="transfer-current"
             id="transfer"
-            style="display: none; position: relative; top: -78px"
+            style="display: none; position: relative; top: -97px; border: 3px solid"
           >
-            <button
-              style="width: 100%"
-              class="button-82-pushable"
-              onclick="document.getElementById('transfer-link').click()"
-              role="button"
+            <div
+              class="result-vget"
+              style="
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                background-image: linear-gradient(
+                  45deg,
+                  #ff512f 0%,
+                  #f09819 51%,
+                  #ff512f 100%
+                );
+                
+                border-bottom: 3px solid;
+                height: 30px;
+              "
             >
-              <span class="button-82-shadow"></span>
-              <span class="button-82-edge"></span>
-              <span
-                style="
-                  font-size: medium;
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  height: 100%;
-                  padding: 12px 27px;
-                "
-                class="button-82-front text"
-                >&nbsp;Transfer Characteristics</span
-              >
-            </button>
-            <a
-              href="transfer/transfer.html"
-              style="display: none"
-              id="transfer-link"
-            ></a>
+              <h4 style="    display: flex;
+              align-items: center;
+              justify-content: center;">RESULT</h4>
+            </div>
+
+            <div
+              class="result-value"
+              style="
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                background-color: #fffacd;
+                height: 55px;
+                align-items: center;
+                font-size: 20px;
+              "
+            >
+              <div>V<sub>GET</sub> = 5.5 V</div>
+            </div>
           </div>
         </div>
         <div id="mid">
@@ -309,13 +319,7 @@
 
                   <div class="left-serial" id="R1LS">14</div>
                   <div class="right-serial" id="R1RS">15</div>
-                  <div
-                    class="left-name"
-                    id="R1-name"
-                    style="width: 83px; text-align: center; left: -7px"
-                  >
-                    RC
-                  </div>
+                  <div class="left-name" id="R1-name" style="width: 83px; text-align: center; left: -7px">RC</div>
                   <div class="r-value" id="R1-value"></div>
                 </div>
               </div>
@@ -345,13 +349,7 @@
 
                   <div class="left-serial" id="R2LS">5</div>
                   <div class="right-serial" id="R2RS">6</div>
-                  <div
-                    class="left-name"
-                    id="R2-name"
-                    style="text-align: center; width: 138px; left: -40px"
-                  >
-                    RG
-                  </div>
+                  <div class="left-name" id="R2-name" style="text-align: center; width: 138px; left: -40px">RG</div>
                   <div class="r-value" id="R2-value"></div>
                 </div>
               </div>
@@ -385,7 +383,7 @@
             <div class="dia-row">
               <div class="hell" id="DC2-back">
                 <div
-                  class="use dc_source_vge"
+                  class="use dc_source_vce"
                   style="
                     background: url(new-img/dcsourceuse.png);
                     background-size: contain;
@@ -472,7 +470,7 @@
               <div class="blank"></div>
               <div class="hell" id="DC1-back">
                 <div
-                  class="use dc_source_vce"
+                  class="use dc_source_vge"
                   style="
                     background: url(new-img/dcsourceuse.png);
                     background-size: contain;
@@ -708,33 +706,25 @@
                   </li>
                   <br />
                   <li>
-                    <b>STEP 4:</b> Select the value from <b>VGG</b>. 
+                    <b>STEP 4:</b> Select the value from <b>VCC</b>. 
                   </li>
                   <br />
                   <li>
-                    <b>STEP 5:</b> Now, Select the value from <b>VCC</b> and click on the <b>ADD</b> button to insert
+                    <b>STEP 5:</b> Now, Select the value from <b>VGG</b> and click on the <b>ADD</b> button to insert
                     the reading into the observation table.
                   </li>
                   <br />
                   <li>
-                    <b>STEP 6:</b> Change the values in <b>VCC</b> by repeating <b>Step 5</b> upto 7 V, then the Graph will plot automatically. 
+                    <b>STEP 6:</b> Change the values in <b>VGG</b> by repeating <b>Step 5</b> upto 6 V, then the Graph will plot automatically. 
                   </li>
                   <br />
                   <li>
-                    <b>STEP 7:</b> Now, Change the value in <b>VGG</b> and repeat <b>Step 5 to 6</b> to take more readings in the table.  
-                  </li>
-                  <br />
-                  <li>
-                    <b>STEP 8:</b> Click on <b>Transfer Characteristics</b> button to plot the transfer characteristics.
-                  </li>
-                    <br>
-                  <li>
-                    <b>STEP 9:</b> Click on the <b>PRINT</b> button to take out
+                    <b>STEP 7:</b> Click on the <b>PRINT</b> button to take out
                     the print of the webpage.
                   </li>
                   <br />
                   <li>
-                    <b>STEP 10:</b> Click on the <b>RESET</b> button to reload
+                    <b>STEP 8:</b> Click on the <b>RESET</b> button to reload
                     the webpage.
                   </li>
                 </ul>
@@ -747,10 +737,9 @@
           style="
             position: relative;
             z-index: 1;
+            border-bottom: 3px solid;
+            border-left: 3px solid;
             height: 0px;
-            border: 3px solid black;
-            border-right: unset;
-            border-top: unset;
           "
           id="graph-new"
         ></div>
