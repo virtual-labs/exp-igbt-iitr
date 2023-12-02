@@ -1,0 +1,1 @@
+## Voltage Current Characteristics of Insulated Gate Bipolar Transistor (IGBT)
