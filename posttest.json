@@ -1,0 +1,52 @@
+[
+		{
+			"question": "The characteristics of IGBT is a combination of which of the following two devices?",
+			"answers": {
+				"a": "SCR and TRIAC",
+				"b": "MOSFET and SCR",
+				"c": "SCR and BJT",
+				"d": "MOSFET and BJT"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "Which of the following statements about an Insulated Gate Bipolar Transistor(IGBT) is not true?",
+			"answers": {
+				"a": "The IGBT is developed by combining the characteristics of a BJT and a MOSFET",
+				"b": "The on-state losses of an IGBT are lesser than a MOSFET",
+				"c": "The IGBT is slower than a BJT",
+				"d": "The IGBT contains a parasitic thyristor"
+			},
+			"correctAnswer": "c"
+		},
+		{
+			"question": "Which of the following is a demerit of IGBT?",
+			"answers": {
+				"a": "High peak current capability",
+				"b": "Low turn off time",
+				"c": "Ease of gate drive",
+				"d": "High turn off time"
+			},
+			"correctAnswer": "d"
+		},
+		{
+			"question": "what does the term 'bias' mean?",
+			"answers": {
+				"a": "a DC voltage is applied to control the operation of device",
+				"b": "the ratio of majority carriers to minority carriers",
+				"c": "the amount of current across a diode",
+				"d": "None of these"
+			},
+			"correctAnswer": "a"
+		},
+		{
+			"question": "For a voltage controlled device like IGBT, which of the following is true?",
+			"answers": {
+				"a": "Output current depends on output voltage",
+				"b": "Input current depends on output current",
+				"c": "Output current depends on input current",
+				"d": "Output current depends on input voltage"
+			},
+			"correctAnswer": "d"
+		}
+	]

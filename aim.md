@@ -1,0 +1,1 @@
+#### To study the voltage current characteristics of insulated gate bipolar transistor (IGBT).
